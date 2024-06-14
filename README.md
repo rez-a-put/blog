@@ -3,29 +3,29 @@ This repo contains a simple application using Go. This project uses a blog imple
 
 # Features
 Post :
-- Get Posts :
+- Get Posts :  
     Getting list of posts. Had several filter to search by such as title, content, tag, published date, status. 
-- Get Post :
+- Get Post :  
     Getting detailed data of specific post.
-- Add Post :
+- Add Post :  
     Adding new post. Will be a draft before later being published.
-- Update Post :
+- Update Post :  
     Change content of existing post.
-- Delete Post :
+- Delete Post :  
     Remove an existing post.
-- Publish Post :
+- Publish Post :  
     Publish a post.
 
 Tag :
-- Get Tags :
+- Get Tags :  
     Getting list of tags. Had a filter to search by such as label.
-- Get Tag :
+- Get Tag :  
     Getting detailed data of specific tag.
-- Add Tag :
+- Add Tag :  
     Adding new tag.
-- Update Tag :
+- Update Tag :  
     Change label of existing tag.
-- Delete Tag : 
+- Delete Tag :   
     Remove an existing tag.
 
 # Installation
@@ -75,13 +75,13 @@ Tag :
 
 # Disclaimer
 There are several features that has not been added due to time constraint.
-1. Users :
+1. Users :  
     Should have a User features so can have a user related features such as post created by user can only be read by its own user before being publish.
-2. Authentication :
+2. Authentication :  
     Should have an Authentication feature for security so not everyone can read or change or even delete other user's post.
-3. Validation :
+3. Validation :  
     Should have a validation for several function. One that might related to user such as a user can only read its own unpublished post or maybe tags that has been assigned into post cannot be deleted before it is being free of any posts.
-4. Testing :
+4. Testing :  
     Should have a unit testing.
-5. Not Deleting Data Directly :
+5. Not Deleting Data Directly :  
     Removing a post or tag should not really deleting its data, just being hidden from public. So when it was needed maybe for historical purpose, the data can still be taken from database directly. 
